@@ -1,5 +1,5 @@
 Summary:	RPM Spec Pre Processor
-Summary(pl):	Preprocessor dla specy
+Summary(pl):	Preprocessor dla plików .spec
 Name:		rspp
 Version:	0.0.2
 Release:	1
@@ -19,10 +19,10 @@ some more bizarre rpm syntax. It is aimed as help with automatic spec
 processing (like looking for list of BuildRequires and so on).
 
 %description -l pl
-Proste narzêdzie do przetwarzania plików z makrami rpm i specy. Mo¿e
-wy¶wietliæ przetworzony spec, lub rozwiniêt± warto¶æ makra. Nie
+Proste narzêdzie do przetwarzania plików z makrami rpm i plików .spec.
+Mo¿e wy¶wietliæ przetworzony spec, lub rozwiniêt± warto¶æ makra. Nie
 obs³uguje co dziwniejszej sk³adni rpm. Celem tego narzêdzia jest
-automatyczne przetwarzanie specy (np. szukanie listy pakietów
+automatyczne przetwarzanie plików .spec (np. szukanie listy pakietów
 wymaganych do budowania).
 
 %prep
