@@ -8,7 +8,7 @@ Group:		Development/Building
 Vendor:		Michal Moskal <malekith@pld-linux.org>
 Source0:	ftp://ftp.pld-linux.org/people/malekith/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	7784d8af6c2f07867643e9ffebabe1fe
-URL:		http://www.kernel.pl/~malekith/
+URL:		http://ep09.pld-linux.org/~malekith/
 BuildRequires:	ocaml >= 3.06
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
