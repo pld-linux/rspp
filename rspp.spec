@@ -13,15 +13,15 @@ BuildRequires:	ocaml >= 3.06
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Simple tool that process rpm macros and spec files. It can either
+Simple tool that process RPM macros and spec files. It can either
 output preprocessed spec or evaluate specific macro. It doesn't handle
-some more bizarre rpm syntax. It is aimed as help with automatic spec
+some more bizarre RPM syntax. It is aimed as help with automatic spec
 processing (like looking for list of BuildRequires and so on).
 
 %description -l pl
-Proste narzêdzie do przetwarzania plików z makrami rpm i plików .spec.
+Proste narzêdzie do przetwarzania plików z makrami RPM i plików .spec.
 Mo¿e wy¶wietliæ przetworzony spec, lub rozwiniêt± warto¶æ makra. Nie
-obs³uguje co dziwniejszej sk³adni rpm. Celem tego narzêdzia jest
+obs³uguje co dziwniejszej sk³adni RPM. Celem tego narzêdzia jest
 automatyczne przetwarzanie plików .spec (np. szukanie listy pakietów
 wymaganych do budowania).
 
