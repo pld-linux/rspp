@@ -1,13 +1,13 @@
 Summary:	RPM Spec Pre Processor
 Summary(pl):	Preprocessor dla specy
 Name:		rspp
-Version:	0.0.1
+Version:	0.0.2
 Release:	1
-License:	Academic Free License v1.2
+License:	Academic Free License v2.0
 Group:		Development/Building
 Vendor:		Michal Moskal <malekith@pld-linux.org>
 Source0:	ftp://ftp.pld-linux.org/people/malekith/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	0ac495bc04adb0ae157fcc434c292e0a
+# Source0-md5:	7784d8af6c2f07867643e9ffebabe1fe
 URL:		http://www.kernel.pl/~malekith/
 BuildRequires:	ocaml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
