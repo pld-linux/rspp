@@ -1,5 +1,5 @@
 Summary:	RPM Spec Pre Processor
-Summary(pl.UTF-8):   Preprocessor dla plików .spec
+Summary(pl.UTF-8):	Preprocessor dla plików .spec
 Name:		rspp
 Version:	0.0.2
 Release:	1
